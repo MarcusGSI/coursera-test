@@ -1,0 +1,46 @@
+/** Couleurs du site : 
+#222831 : bleu noir
+#393E46 : gris foncé
+#FFD369 : Jaune clair
+#EEEEEE : gris leger
+**/ 
+
+body {
+	background-color: #EEEEEE;
+}
+
+/** header **/ 
+#header-nav { 
+	background-color: #222831;
+	border-radius: 0;
+	border: 0;
+ }
+
+
+ #logo-img {
+ 	 width: 150px;  
+ 	 height: 150px;
+ 	 margin: 10px 15px 10px 0px;
+ }
+
+.navbar-brand {
+	padding-top: 25px; 
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', Helvetica;
+	color: #FFFFFF;
+	font-size: 1em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+
