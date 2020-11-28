@@ -10,16 +10,21 @@ body {
 }
 
 /** header **/ 
-#header-nav { 
-	background-color: #222831;
-	border-radius: 0;
-	border: 0;
+
+.bg-light {
+	background-color: #222831 !important;
+}
+
+.navbar-light .navbar-nav .nav-link { 
+	color: #EEEEEE;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.5s;
  }
 
-
  #logo-img {
- 	 width: 150px;  
- 	 height: 150px;
+ 	 width: 100px;  
+ 	 height: 100px;
  	 margin: 10px 15px 10px 20px;
  }
 
@@ -71,9 +76,10 @@ body {
  	font-size: 1.8em
  }
 
- .navbar-header button.navbar-toggler{
- 	border: 1px solid #393E46;
- }
+.navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border-color: #000000;
+}
 
  .navbar-header button.navbar-toggler{
  	clear: both;
@@ -86,6 +92,14 @@ body {
 #collapsable-nav a span {
 	font-size: 1em;
 	margin-right: 5px;
+}
+
+#navbar-intro {
+	color: #EEEEEE;
+	margin-left: auto;
+	font-size: 140%;
+	font-family: bahnshift;
+
 }
 
 
@@ -185,7 +199,7 @@ line-height: 2; }
 }
 
 #specials-tile {
-	background: url('../images/Marcus.jpg') no-repeat;
+	background: url('../images/MarcusTim.jpg') no-repeat;
 	background-position: center;
 }
 
@@ -201,3 +215,7 @@ line-height: 2; }
 	color: #fff;
 	opacity: .6;
 }
+
+
+
+
